@@ -1,0 +1,13 @@
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Application.dll
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Application.pdb
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.dll
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.pdb
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Core.dll
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Core.pdb
+/home/yuri/Projects/MasterTasty/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/yuri/Projects/MasterTasty/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete

@@ -1,0 +1,19 @@
+        public async Task<TipsModel> PostUpload(){
+            try{
+                using (var memoryStream = new MemoryStream()){
+                    var model = new TipsModel();
+                    await model.Picture.FormFile.CopyToAsync(memoryStream);
+                    if (memoryStream.Length < 2097152){
+                        var files = new TipsEntity(){
+                            Picture = memoryStream.ToArray()
+                        };
+                        _context.Tips.Add(files);
+                        await _context.SaveChangesAsync();
+                    }
+                }
+            }
+            catch (Exception e){
+                throw e;
+            }
+            return new TipsModel();
+        }

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Core.csproj" />
+      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Http, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\Documentos\netcore\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Http.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Features, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\Documentos\netcore\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\Documentos\netcore\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Mvc.RazorPages, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\Documentos\netcore\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Mvc.RazorPages.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Rewrite, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\Documentos\netcore\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Rewrite.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
