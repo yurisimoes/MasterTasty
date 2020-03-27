@@ -25,6 +25,5 @@ namespace MasterTasty.Controllers{
                 return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
             }
         }
-        
     }
 }
