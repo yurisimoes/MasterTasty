@@ -14,7 +14,7 @@
         "outputPath": "/home/yuri/Projects/MasterTasty/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/yuri/.config/NuGet/NuGet.Config"
+          "/home/yuri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -71,7 +71,7 @@
         "outputPath": "/home/yuri/Projects/MasterTasty/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/yuri/.config/NuGet/NuGet.Config"
+          "/home/yuri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -121,7 +121,7 @@
         "outputPath": "/home/yuri/Projects/MasterTasty/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/yuri/.config/NuGet/NuGet.Config"
+          "/home/yuri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -147,6 +147,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.1.1, )"

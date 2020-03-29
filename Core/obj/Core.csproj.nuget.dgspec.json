@@ -14,7 +14,7 @@
         "outputPath": "/home/yuri/Projects/MasterTasty/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/yuri/.config/NuGet/NuGet.Config"
+          "/home/yuri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
